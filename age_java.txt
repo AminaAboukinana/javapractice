@@ -1,0 +1,8 @@
+class Age {
+	public static void main(String [ ] args) {
+		String string = "I am ";
+		int myAge = 24;
+		String string2 = " years old.";
+	System.out.print (string + myAge + string2);
+	}
+}
