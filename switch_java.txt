@@ -1,0 +1,18 @@
+class Switch {
+	public static void main(String[] args) {
+		int rating = 5;
+		switch (rating) {
+		case 1: System.out.print("Wow, that’s pretty low!");
+		break;
+		case 2: System.out.print("That’s not a good rating.");
+		break;
+		case 3: System.out.print("I’ll continue working on it.");
+		break;
+		case 4: System.out.print("Almost there!");
+		break;
+		case 5: System.out.print("Wonderful!");
+		break;
+		default: System.out.print("Please enter a number 1 through 			5.");
+		}
+}
+}
